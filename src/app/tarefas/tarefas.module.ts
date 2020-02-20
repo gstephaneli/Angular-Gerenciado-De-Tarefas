@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListarTarefaComponent } from './listar/listar-tarefa.component';
 import { FormsModule } from '@angular/forms';
-import { CadastrasTarefaComponent } from './cadastras/cadastras-tarefa.component'
+import { CadastrasTarefaComponent } from './cadastras/cadastras-tarefa.component';
+import { EditarTarefaComponent } from './editar/editar-tarefa.component'
 
 
 
@@ -12,7 +13,8 @@ import { CadastrasTarefaComponent } from './cadastras/cadastras-tarefa.component
 @NgModule({
   declarations: [
     ListarTarefaComponent,
-    CadastrasTarefaComponent
+    CadastrasTarefaComponent,
+    EditarTarefaComponent
   ],
   imports: [
     CommonModule,

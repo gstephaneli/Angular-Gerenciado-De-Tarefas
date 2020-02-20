@@ -1,3 +1,4 @@
+import { EditarTarefaComponent } from './editar/editar-tarefa.component';
 import { CadastrasTarefaComponent } from './cadastras/cadastras-tarefa.component';
 
 import { Routes } from '@angular/router';
@@ -15,5 +16,9 @@ export const TarefasRoutes: Routes = [
     {
         path:'tarefas/cadastrar',
         component: CadastrasTarefaComponent
+    },
+    {
+        path:'tarefas/editar/:id',
+        component: EditarTarefaComponent
     }
 ]
